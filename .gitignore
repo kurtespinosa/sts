@@ -2,3 +2,4 @@ data/
 embeddings/
 model/
 result/
+.ipynb*
