@@ -1,0 +1,274 @@
+Parameters:
+all_data=data/SICK/SICK_all.txt
+char_embedding_dim=50
+cnt=10
+data_path=data
+min_word_freq=2
+model_name=02
+result_path=result/
+save_path=model/
+test_data=data/SICK/SICK_test_annotated.txt
+train_data=data/SICK/SICK_new_train.txt
+use_fp64=False
+validation_data=data/SICK/SICK_new_trial.txt
+word2vec_path=embeddings/GoogleNews-vectors-negative300.txt
+word_embedding_dim=300
+2556 54
+Load word2vec_norm file embeddings/GoogleNews-vectors-negative300.txt
+2556 300
+vocab_size=2556
+preloaded vectors
+dataset read
+32
+16
+pad_to_max_len_sentence_and_word_len
+build_model
+training..
+>>: Model/word_embeddings:0
+>>: Model/siamese_final/RNN/MultiRNNCell/Cell0/LSTMCell/W_0:0
+>>: Model/siamese_final/RNN/MultiRNNCell/Cell0/LSTMCell/B:0
+Total batch size: 116, data size: 3499, batch size: 30
+1.0 0.5 0.98 8 60 1
+Epoch 0 Learning rate: 0.00999999977648
+Average cost:	0.000306863787359 >
+Valid cost:	0.0493250638247 >
+patience: 5
+Epoch 1 Learning rate: 0.00999999977648
+Average cost:	0.000178249568903 >
+Valid cost:	0.0416178666055 >
+patience: 5
+Epoch 2 Learning rate: 0.00999999977648
+Average cost:	0.000177698466798 >
+Valid cost:	0.0387289822102 >
+patience: 5
+Epoch 3 Learning rate: 0.00999999977648
+Average cost:	0.000130418655944 >
+Valid cost:	0.036206766963 >
+patience: 5
+Epoch 4 Learning rate: 0.00999999977648
+Average cost:	0.000109020347611 >
+Valid cost:	0.0347155481577 >
+patience: 5
+Epoch 5 Learning rate: 0.00999999977648
+Average cost:	8.31999912344e-05 >
+Valid cost:	0.0334888510406 >
+patience: 5
+Epoch 6 Learning rate: 0.00999999977648
+Average cost:	6.93844470741e-05 >
+Valid cost:	0.0328015014529 >
+patience: 5
+Epoch 7 Learning rate: 0.00999999977648
+Average cost:	5.35973652812e-05 >
+Valid cost:	0.0323114469647 >
+patience: 5
+Epoch 8 Learning rate: 0.00980000011623
+Average cost:	5.14216552456e-05 >
+Valid cost:	0.0320687517524 >
+patience: 5
+Epoch 9 Learning rate: 0.00960399955511
+Average cost:	5.55889745211e-05 <
+Valid cost:	0.0317221134901 >
+patience: 5
+Epoch 10 Learning rate: 0.00941191986203
+Average cost:	5.57646653133e-05 <
+Valid cost:	0.0322456881404 <
+patience: 5
+Epoch 11 Learning rate: 0.00922368187457
+Average cost:	5.60036820263e-05 <
+Valid cost:	0.0322977602482 <
+patience: 5
+Epoch 12 Learning rate: 0.00903920829296
+Average cost:	5.19803082892e-05 >
+Valid cost:	0.031949415803 >
+patience: 5
+Epoch 13 Learning rate: 0.00885842368007
+Average cost:	5.61507226064e-05 <
+Valid cost:	0.0316311120987 >
+patience: 5
+Epoch 14 Learning rate: 0.00868125539273
+Average cost:	4.59912176854e-05 >
+Valid cost:	0.0315754823387 >
+patience: 5
+Epoch 15 Learning rate: 0.00850762985647
+Average cost:	4.77169784878e-05 <
+Valid cost:	0.0312503613532 >
+patience: 5
+Epoch 16 Learning rate: 0.00833747722208
+Average cost:	4.58213556879e-05 >
+Valid cost:	0.0313637852669 <
+patience: 5
+Epoch 17 Learning rate: 0.00817072764039
+Average cost:	4.44552861154e-05 >
+Valid cost:	0.0315892696381 <
+patience: 5
+Epoch 18 Learning rate: 0.00800731312484
+Average cost:	4.28380846078e-05 >
+Valid cost:	0.0315239578485 >
+patience: 5
+Epoch 19 Learning rate: 0.00784716755152
+Average cost:	4.25998145586e-05 >
+Valid cost:	0.0314636304975 >
+patience: 5
+Epoch 20 Learning rate: 0.00769022386521
+Average cost:	4.85521259493e-05 <
+Valid cost:	0.0314633511007 >
+patience: 5
+Epoch 21 Learning rate: 0.00753641920164
+Average cost:	4.41010985202e-05 >
+Valid cost:	0.0314428023994 >
+patience: 5
+Epoch 22 Learning rate: 0.0073856911622
+Average cost:	5.41573550938e-05 <
+Valid cost:	0.0312655419111 >
+patience: 5
+Epoch 23 Learning rate: 0.00723797734827
+Average cost:	4.32281481937e-05 >
+Valid cost:	0.0311839599162 >
+patience: 5
+Epoch 24 Learning rate: 0.00709321768954
+Average cost:	3.66116352058e-05 >
+Valid cost:	0.0311134718359 >
+patience: 5
+Epoch 25 Learning rate: 0.0069513535127
+Average cost:	4.22779944372e-05 <
+Valid cost:	0.0313742309809 <
+patience: 5
+Epoch 26 Learning rate: 0.00681232614443
+Average cost:	4.07088483716e-05 >
+Valid cost:	0.031287163496 >
+patience: 5
+Epoch 27 Learning rate: 0.00667607970536
+Average cost:	3.87818375924e-05 >
+Valid cost:	0.0309795774519 >
+patience: 5
+Epoch 28 Learning rate: 0.00654255831614
+Average cost:	4.47767048047e-05 <
+Valid cost:	0.0312270969152 <
+patience: 5
+Epoch 29 Learning rate: 0.00641170702875
+Average cost:	4.17656666631e-05 >
+Valid cost:	0.0311131961644 >
+patience: 5
+Epoch 30 Learning rate: 0.00628347275779
+Average cost:	3.55812472066e-05 >
+Valid cost:	0.030972963199 >
+patience: 5
+Epoch 31 Learning rate: 0.0061578033492
+Average cost:	3.75409506197e-05 <
+Valid cost:	0.0308975875378 >
+patience: 5
+Epoch 32 Learning rate: 0.00603464711457
+Average cost:	3.45507468065e-05 >
+Valid cost:	0.0309816356748 <
+patience: 5
+Epoch 33 Learning rate: 0.00591395422816
+Average cost:	3.37917630657e-05 >
+Valid cost:	0.0307561270893 >
+patience: 5
+Epoch 34 Learning rate: 0.00579567532986
+Average cost:	4.68718755091e-05 <
+Valid cost:	0.0308768637478 <
+patience: 5
+Epoch 35 Learning rate: 0.0056797619909
+Average cost:	3.60082305069e-05 >
+Valid cost:	0.0310391765088 <
+patience: 5
+Epoch 36 Learning rate: 0.00556616671383
+Average cost:	3.5319393019e-05 >
+Valid cost:	0.0311773084104 <
+patience: 5
+Epoch 37 Learning rate: 0.00545484339818
+Average cost:	3.37696040113e-05 >
+Valid cost:	0.0314254947007 <
+patience: 5
+Epoch 38 Learning rate: 0.00534574640915
+Average cost:	3.43859147537e-05 <
+Valid cost:	0.0314978919923 <
+patience: 5
+Epoch 39 Learning rate: 0.0052388315089
+Average cost:	3.4649499114e-05 <
+Valid cost:	0.0312919765711 >
+patience: 5
+Epoch 40 Learning rate: 0.00513405492529
+Average cost:	3.22336162408e-05 >
+Valid cost:	0.0316238366067 <
+patience: 5
+Epoch 41 Learning rate: 0.00503137381747
+Average cost:	3.5667221929e-05 <
+Valid cost:	0.0316075533628 >
+patience: 5
+Epoch 42 Learning rate: 0.00493074627593
+Average cost:	3.32394988148e-05 >
+Valid cost:	0.0313233733177 >
+patience: 5
+Epoch 43 Learning rate: 0.00483213132247
+Average cost:	3.29405342325e-05 >
+Valid cost:	0.0314923897386 <
+patience: 5
+Epoch 44 Learning rate: 0.00473548844457
+Average cost:	3.3197828151e-05 <
+Valid cost:	0.0313810035586 >
+patience: 5
+Epoch 45 Learning rate: 0.00464077899233
+Average cost:	3.0610304936e-05 >
+Valid cost:	0.031105723232 >
+patience: 5
+Epoch 46 Learning rate: 0.00454796338454
+Average cost:	3.16653328402e-05 <
+Valid cost:	0.0315490327775 <
+patience: 5
+Epoch 47 Learning rate: 0.00445700390264
+Average cost:	3.17569577199e-05 <
+Valid cost:	0.0315505936742 <
+patience: 5
+Epoch 48 Learning rate: 0.0043678637594
+Average cost:	3.40411166564e-05 <
+Valid cost:	0.0312599204481 >
+patience: 5
+Epoch 49 Learning rate: 0.00428050663322
+Average cost:	3.44843820444e-05 <
+Valid cost:	0.0311623755842 >
+patience: 5
+Epoch 50 Learning rate: 0.0041948966682
+Average cost:	3.11738052727e-05 >
+Valid cost:	0.0311718694866 <
+patience: 5
+Epoch 51 Learning rate: 0.00411099847406
+Average cost:	3.30858727403e-05 <
+Valid cost:	0.0311942193657 <
+patience: 5
+Epoch 52 Learning rate: 0.00402877852321
+Average cost:	3.13629942208e-05 >
+Valid cost:	0.0314125902951 <
+patience: 5
+Epoch 53 Learning rate: 0.00394820328802
+Average cost:	3.26260241905e-05 <
+Valid cost:	0.0312790647149 >
+patience: 5
+Epoch 54 Learning rate: 0.00386923900805
+Average cost:	3.57954794991e-05 <
+Valid cost:	0.0312283392996 >
+patience: 5
+Epoch 55 Learning rate: 0.00379185425118
+Average cost:	3.07496621049e-05 >
+Valid cost:	0.0311653073877 >
+patience: 5
+Epoch 56 Learning rate: 0.00371601711959
+Average cost:	3.15582929661e-05 <
+Valid cost:	0.0314705483615 <
+patience: 5
+Epoch 57 Learning rate: 0.00364169687964
+Average cost:	3.02994077833e-05 >
+Valid cost:	0.0313534066081 >
+patience: 5
+Epoch 58 Learning rate: 0.00356886279769
+Average cost:	3.14039924856e-05 <
+Valid cost:	0.0313125178218 >
+patience: 5
+Epoch 59 Learning rate: 0.00349748553708
+Average cost:	2.90287465885e-05 >
+Valid cost:	0.0315675884485 <
+patience: 5
+0.0312469
+Pearson: (0.71679451081029322, 0.0)
+Execution time: 1486144019.28
